@@ -21,6 +21,7 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 export SSH_KEY_PATH="~/.ssh/id_rsa"
 
-
+# $PATH
 export PATH="$(yarn global bin):$PATH"
 
+. ~/.aliases
