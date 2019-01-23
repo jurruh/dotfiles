@@ -1,2 +1,11 @@
 alias vi=vim
 alias svi='sudo vi'
+
+
+function docker-jumpin {
+    docker exec -it $1 /bin/bash
+}
+
+function docker-jumpin-sh {
+    docker exec -it $1 /bin/bash
+}
